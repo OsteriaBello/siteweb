@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osteria Bellosguardo | Restaurante Italiano Autêntico em Lisboa - Alfama</title>
+    <meta name="description" content="Osteria Bellosguardo, restaurante italiano autêntico no coração de Lisboa. Descubra nossa massa fresca caseira, nossos vinhos italianos e nosso ambiente acolhedor em Alfama." />
+    <meta name="keywords" content="restaurante italiano lisboa, restaurante italiano alfama, massa fresca lisboa, cozinha italiana lisboa, melhor restaurante italiano lisboa" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bellosguardo.pt/" />
+    <meta property="og:title" content="Osteria Bellosguardo | Restaurante Italiano em Lisboa" />
+    <meta property="og:description" content="Restaurante italiano autêntico no coração de Lisboa. Massa fresca caseira e ambiente acolhedor em Alfama." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bellosguardo.pt/" />
+    <meta property="twitter:title" content="Osteria Bellosguardo | Restaurante Italiano em Lisboa" />
+    <meta property="twitter:description" content="Restaurante italiano autêntico no coração de Lisboa. Massa fresca caseira e ambiente acolhedor em Alfama." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" />
+
+    <!-- Schema.org para restaurantes -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Osteria Bellosguardo",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      "description": "Restaurante italiano autêntico no coração de Lisboa, oferecendo massa fresca caseira e uma seleção de vinhos italianos em um ambiente acolhedor.",
+      "@id": "https://bellosguardo.pt",
+      "url": "https://bellosguardo.pt",
+      "telephone": "+351915316420",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. do Castelo Picão 11 13",
+        "addressLocality": "Lisboa",
+        "addressRegion": "Lisboa",
+        "postalCode": "1100-125",
+        "addressCountry": "PT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.7147254,
+        "longitude": -9.1449947
+      },
+      "servesCuisine": ["Italian"],
+      "priceRange": "€€",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "12:30",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "11:00",
+          "closes": "23:00"
+        }
+      ],
+      "menu": "https://bellosguardo.pt/#menu",
+      "acceptsReservations": "True"
+    }
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-white focus:text-[#1a472a] focus:z-50">
+      Skip to main content
+    </a>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
