@@ -31,7 +31,7 @@ const translations = {
     "menu.fresh.pasta": "Massas Frescas",
     "menu.wines": "Vinhos",
     "menu.desserts": "Sobremesas",
-    "menu.modal.title": "O Cardápio",
+    "menu.modal.title": "Nosso Cardápio",
 
     // Gallery Section
     "gallery.title": "Nossa Galeria",
