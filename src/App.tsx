@@ -47,55 +47,6 @@ function App() {
     };
   }, [isMenuOpen]);
 
-  const menuItems = [
-    {
-      category: t("menu.fresh.pasta"),
-      items: [
-        {
-          name: "Spaghetti alla Carbonara",
-          price: "16€",
-          description: "Ovo, pecorino, guanciale, pimenta preta",
-        },
-        {
-          name: "Tagliatelle al Tartufo",
-          price: "24€",
-          description: "Trufa preta, creme, parmesão",
-        },
-        {
-          name: "Linguine alle Vongole",
-          price: "22€",
-          description: "Amêijoas, alho, salsa, vinho branco",
-        },
-      ],
-    },
-    {
-      category: t("menu.wines"),
-      items: [
-        {
-          name: "Chianti Classico",
-          price: "45€",
-          description: "Toscana, Itália",
-        },
-        { name: "Vinho Verde", price: "28€", description: "Minho, Portugal" },
-      ],
-    },
-    {
-      category: t("menu.desserts"),
-      items: [
-        {
-          name: "Tiramisu",
-          price: "8€",
-          description: "Caseiro, receita tradicional",
-        },
-        {
-          name: "Panna Cotta",
-          price: "7€",
-          description: "Frutos vermelhos, hortelã fresca",
-        },
-      ],
-    },
-  ];
-
   const handleScrollToMenu = () => {
     const menuSection = document.querySelector("#menu");
     if (menuSection) {
@@ -224,7 +175,7 @@ function App() {
               </p>
               <p className="text-xl mb-8">{t("hero.description")}</p>
               <a
-                href="https://widget.thefork.com/fr/da7ca922-58dd-4ab3-94b6-1bb5548434d7"
+                href="https://widget.thefork.com/en/da7ca922-58dd-4ab3-94b6-1bb5548434d7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#e3a048] text-white px-8 py-3 rounded-md hover:bg-[#cc8f3f] transition-colors"
@@ -302,7 +253,7 @@ function App() {
                     id="menu-title"
                     className="text-3xl font-serif italic text-center mb-8 text-[#a4b39d]"
                   >
-                    {menuPdf?.title || t("menu.modal.title")}
+                    {t("menu.modal.title")}
                   </h3>
 
                   {loadingMenu ? (
@@ -357,7 +308,7 @@ function App() {
                 <p className="text-lg mb-8">{t("room.description")}</p>
                 <div className="flex flex-col sm:flex-row gap-6">
                   <a
-                    href="https://www.tripadvisor.fr/Restaurant_Review-g187895-d15694704-Reviews-Osteria_Belguardo-Florence_Tuscany.html"
+                    href="https://www.tripadvisor.com/Restaurant_Review-g189158-d25175771-Reviews-Osteria_Bellosguardo-Lisbon_Lisbon_District_Central_Portugal.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#1a472a]/5 p-6 rounded-lg flex-1 hover:bg-[#1a472a]/10 transition-colors"
@@ -448,7 +399,7 @@ function App() {
                   </div>
                 </div>
                 <a
-                  href="https://widget.thefork.com/fr/da7ca922-58dd-4ab3-94b6-1bb5548434d7"
+                  href="https://widget.thefork.com/en/da7ca922-58dd-4ab3-94b6-1bb5548434d7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-[#e3a048] text-white text-center py-3 px-4 rounded-md hover:bg-[#cc8f3f] transition-colors"
