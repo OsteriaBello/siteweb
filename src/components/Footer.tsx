@@ -111,7 +111,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://www.tripadvisor.fr/Restaurant_Review-g187895-d15694704-Reviews-Osteria_Belguardo-Florence_Tuscany.html"
+                href="https://www.tripadvisor.com/Restaurant_Review-g189158-d25175771-Reviews-Osteria_Bellosguardo-Lisbon_Lisbon_District_Central_Portugal.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#e3a048]"
